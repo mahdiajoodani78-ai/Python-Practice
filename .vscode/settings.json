@@ -1,0 +1,12 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    "gitdoc.enabled": true,
+    "gitdoc.autoCommitDelay": 300000,
+
+    "gitdoc.autoPush": "onCommit",
+    "gitdoc.pushMode": "push",
+
+    "gitdoc.commitOnClose": true
+}

@@ -173,7 +173,7 @@
 #     print(len(password) >= 1 and username == "admin" and len(password) >= 6)
 # else:
 #     print("The username field is empty; please enter a value.")
-    
+
 # ____________________________________________________________________________
 
 # project 6 : tamrin 5 : Between Condition
@@ -225,4 +225,137 @@
 #         print("Product Found")
 #         break
 # else:
-#     print("Product Not Found")    
+#     print("Product Not Found")
+
+
+# ____________________________________________________________________________
+
+# project 7 : tamrin 1 : Store Order Management System (Nested Loops)
+
+# orders = [
+#     ["Ali", ["Laptop", "Mouse", "Keyboard"]],
+#     ["Sara", ["Phone", "Headphone"]],
+#     ["Reza", ["Monitor", "Mouse", "Cable"]]
+# ]
+
+# Customers_who_ordered_Mouse = []
+# Customers_with_more_than_2_products = []
+# Total_Products = 0
+
+# for i in orders:
+#     Customer = i[0]
+#     Products = i[1]
+
+#     for y in  Products:
+#         if y == "Mouse":
+#             Customers_who_ordered_Mouse.append(Customer)
+#             break
+
+#     if len(Products) > 2:
+#                 Customers_with_more_than_2_products.append(Customer)
+
+
+#     Total_Products += len(Products)
+
+#     print(f"Customer: {Customer}")
+#     print("Products: ", end="")
+
+#     for x in range(len(Products)):
+#         if x < len(Products) - 1:
+#             print(Products[x], end=", ")
+#         else:
+#             print(Products[x])
+#             print()
+
+# print(f"Total_Products: {Total_Products}")
+# print(f"Customers_who_ordered_Mouse: {Customers_who_ordered_Mouse}")
+# print(f"Customers_with_more_than_2_products: {len(Customers_with_more_than_2_products)}")
+
+
+# ____________________________________________________________________________
+
+# project 7 : tamrin 1 : User Account Login System
+
+
+# users = [
+#     ["ali", "1234"],
+#     ["sara", "5678"],
+#     ["reza", "abcd"]
+# ]
+
+# attempts = 0
+# is_logged_in = False
+
+# while attempts < 3:
+
+#     Username = input("Enter Your Username: ").lower()
+#     Password = input("Enter Your Password: ")
+
+#     for item in users:
+
+#         if Username == item[0] and Password == item[1]:
+#             print("Login successful!")
+#             is_logged_in = True
+#             break
+
+#     if is_logged_in:
+#         break
+
+#     attempts += 1
+#     print("Invalid username or password!")
+#     print("Attempts remaining:", 3 - attempts)
+
+# if not is_logged_in:
+#     print("Access Denied!")
+
+
+# ____________________________________________________________________________
+
+# project 7 : tamrin 1 : User Account Login System
+
+# discount_codes = [
+#     ["WELCOME10", 10],
+#     ["SUMMER20", 20],
+#     ["BLACKFRIDAY50", 50],
+#     ["NEWUSER15", 15]
+# ]
+
+# attempt = 0
+# is_discount_correct = False
+
+# while attempt < 3:
+#     Discount = input("Enter Discount Code: ").upper()
+
+#     for item in discount_codes:
+#         if Discount == item[0]:
+#             print("Discount Applied Successfully!")
+#             print(f"Your Discount: {item[1]}")
+#             is_discount_correct = True
+#             break
+#     else:
+#         print("Invalid Discount Code")
+#         attempt += 1
+#         print("Attempts_remaining: ", 3 - attempt)
+
+#     if is_discount_correct:
+#         break
+    
+# if not is_discount_correct:
+#     print("Access Denied!")
+
+# ____________________________________________________________________________
+# ----------------test------------
+
+# def great(firest_name):
+#     print(f"hi {firest_name}")
+
+# great("mahdi")
+# print(great("mahdi"))
+
+
+def great(firest_name):
+    return f"hi {firest_name}"
+
+print(great("mahdi ajodani"))
+x = great("reza")
+print(x)
