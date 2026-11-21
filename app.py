@@ -353,9 +353,12 @@
 # print(great("mahdi"))
 
 
-def great(firest_name):
-    return f"hi {firest_name}"
+# def great(firest_name):
+#     return f"hi {firest_name}"
 
-print(great("mahdi ajodani"))
-x = great("reza")
-print(x)
+# print(great("mahdi ajodani"))
+# x = great("reza")
+# print(x)
+
+# Testing GitHub Auto Sync
+# GitHub Auto Sync Test
