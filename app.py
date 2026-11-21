@@ -359,7 +359,3 @@
 # print(great("mahdi ajodani"))
 # x = great("reza")
 # print(x)
-
-# Testing GitHub Auto Sync
-# GitHub Auto Sync Test
-# Testing GitHub Auto Sync #
