@@ -359,3 +359,19 @@
 # print(great("mahdi ajodani"))
 # x = great("reza")
 # print(x)
+
+
+# ____________________________________________________________________________
+
+# project 8 : Python Functions _ tamrin 1 : E-commerce Order Management System
+
+# *Customer_Name , Email , Address , Shipping_Method = "standard",Discount_Code = "none" 
+def create_order(**Customer_Information):
+    x = input("Please Enter Your Name: ")
+    y = input("Please Enter Your Email: ")
+    z = input("Please Enter Your Address: ")
+    return f"Name: {x} \nEmail: {y} \nAddress: {z}"
+
+    
+
+create_order("mahdi" , "ajoodani.eng" , "shahrood")
