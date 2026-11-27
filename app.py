@@ -372,6 +372,5 @@ def create_order(Shipping_Method = "standard" , Discount_Code = "None" , **Custo
 create_order(
     Name = "mahdi",
     Emaile = "ajoodani.eng",
-    City = "Shahrood",
-     Shipping_Method = ""
+    City = "Shahrood"
     )
