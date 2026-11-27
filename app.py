@@ -366,12 +366,12 @@
 # project 8 : Python Functions _ tamrin 1 : E-commerce Order Management System
 
 # *Customer_Name , Email , Address , Shipping_Method = "standard",Discount_Code = "none" 
-def create_order(**Customer_Information):
-    x = input("Please Enter Your Name: ")
-    y = input("Please Enter Your Email: ")
-    z = input("Please Enter Your Address: ")
-    return f"Name: {x} \nEmail: {y} \nAddress: {z}"
+def create_order(Shipping_Method = "standard" , Discount_Code = "None" , **Customer_Information):
+    return f"Name: {create_order} \nEmaile: {create_order} \nCity: {create_order}"
 
-    
-
-create_order("mahdi" , "ajoodani.eng" , "shahrood")
+create_order(
+    Name = "mahdi",
+    Emaile = "ajoodani.eng",
+    City = "Shahrood",
+     Shipping_Method = ""
+    )
